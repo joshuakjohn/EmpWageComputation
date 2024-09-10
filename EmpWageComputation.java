@@ -8,6 +8,12 @@ public class EmpWageComputation {
 
         if (isPresent == 1) {
             System.out.println("Employee is Present");
+
+            // UC 2 - Calculate Daily Employee Wage
+            int wagePerHour = 20;
+            int fullDayHour = 8;
+            int dailyWage = wagePerHour * fullDayHour;
+            System.out.println("Daily Employee Wage: " + dailyWage);
         } else {
             System.out.println("Employee is Absent");
         }
